@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 
-
 const routes: Routes = [
   {
     path: '',
@@ -26,9 +25,8 @@ const routes: Routes = [
 
 
 @NgModule({
-
   imports: [
-    RouterModule.forChild(routes)
+    RouterModule.forChild( routes )
   ],
   exports: [
     RouterModule
